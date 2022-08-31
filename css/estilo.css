@@ -1,0 +1,323 @@
+/*general*/
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    color: #11296B;
+}
+
+h2 {
+    color: #5e9183;
+}
+
+h3 {
+    color: #11296b;
+}
+
+p {
+    color: black;
+}
+
+#contenido {
+    background-color: #ededed;
+}
+
+#fuente {
+    font-family: 'Abel', sans-serif;
+}
+
+header {
+    background-color: #d4f0bc;
+
+}
+
+.btnMenu {
+    margin-right: 5px;
+    font-size: 100%;
+    text-decoration: none;
+
+}
+
+.logo {
+    margin-left: 10%;
+}
+
+.menu {
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    margin-right: 10%;
+}
+
+.menuFooter {
+    margin-left: 15%;
+
+}
+
+.copiFooter {
+    font-size: 95%;
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer1 {
+    background-color: #11296b;
+}
+
+/*UBICACION */
+.boton {
+    display: inline-block;
+    border-radius: 6px;
+    background-color: #34A0A4;
+    border: none;
+    font-size: 15px;
+    padding: 8px;
+    width: 150px;
+    margin: 5px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 2px 2px rgb(168, 164, 164);
+
+}
+
+#contenidoUbicacion {
+    background-color: white;
+    background-image: url('./imagenes/ilustracionPsicologia.webp');
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.tituloUbicacion {
+    text-align: center;
+}
+
+.mapa {
+    background-color: white;
+    padding-left: 1rem;
+    width: 40rem;
+    height: 30rem;
+    display: inline-block;
+}
+
+.ubicacion {
+    width: 400px;
+    height: 25px;
+    background-color: transparent;
+    padding: 5rem;
+    margin: 2rem;
+    border: 4px solid #5e9183;
+    border-style: double;
+
+
+}
+
+.parrafoUbicacion {
+    text-align: center;
+}
+
+/*perfil*/
+.perfil {
+    width: 30%;
+    height: 80%;
+    float: left;
+}
+
+.h4p {
+    text-align: center;
+}
+
+/*profesionales*/
+.medio {
+    text-align: center;
+    color: #11296B;
+}
+
+.costado {
+    text-align: right;
+    color: #11296B;
+}
+
+.psicologo img {
+    width: inherit;
+}
+
+#psicologos {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.psicologo {
+    text-align: center;
+    width: 22%;
+    margin: 1%;
+
+}
+
+.psicologo div img {
+
+    width: 50%;
+}
+
+.medio2 {
+    text-align: center;
+    text-decoration: underline;
+    color: #34A0A4;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.align-psicologo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.cajaPsicologo {
+    padding: 0.5rem;
+}
+
+/*login*/
+#main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    background-color: #99d98c40;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 45px;
+    padding: 20px;
+}
+
+.contenedor h3 {
+    font-weight: 600;
+
+}
+
+form {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label input {
+    background-color: #f3f3f4;
+    border: 1px solid grey;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15pt;
+    transition: backgground-color 0.2s, border 0.2s, box-shadow 0.2s;
+}
+
+input:hover {
+    border: 1px solid #99d98c;
+}
+
+input:focus{
+    border: 1px solid #99D98C;
+}
+
+.opciones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox h4 {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.opciones_contraseña {
+    font-size: 12px;
+}
+
+.submit_boton:hover {
+    opacity: 0.75;
+    background-color: white;
+    color: #99D98C;
+    transition: 300ms;
+    border: 1px solid #99d98c;
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+}
+
+.submit_boton {
+    background-color:  #99D98C;
+    color: white;
+    font-weight: 500;
+    font-size: 14pt;
+    text-align: center;
+    padding: 14px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+}
+
+.submit_boton:hover {
+    opacity: 0.75;
+}
+
+.button_boton {
+    background-color:  #99D98C;
+    color: white;
+    font-weight: 500;
+    font-size: 14pt;
+    text-align: center;
+    padding: 14px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+}
+
+.button_boton:hover {
+    opacity: 0.75;
+}
+
+/*index */
+.h1i {
+    color: #11296b;
+}
+
+.h3i {
+    color: #99C7EA;
+}
